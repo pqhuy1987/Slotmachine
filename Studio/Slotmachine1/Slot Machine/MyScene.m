@@ -127,7 +127,7 @@
     // Latest Win
     _latestWin = [SKLabelNode labelNodeWithFontNamed:@"GillSans-Bold"];
     _latestWin.fontSize = 75;
-    _latestWin.fontColor = [SKColor greenColor];
+    _latestWin.fontColor = [SKColor redColor];
     _latestWin.position = CGPointMake(_overlay.position.x + _overlay.frame.size.width/2, _overlay.position.y + _overlay.frame.size.height/2 + 30);
     [self addChild:_latestWin];
     _flasher = 5;
