@@ -247,7 +247,7 @@
 				ORGANIZATIONNAME = STD1;
 				TargetAttributes = {
 					D2982E28187C30BE004E8886 = {
-						DevelopmentTeam = JQNK74493B;
+						DevelopmentTeam = 7A3KSATNU7;
 					};
 					D2982E49187C30BE004E8886 = {
 						TestTargetID = D2982E28187C30BE004E8886;
@@ -441,12 +441,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = JQNK74493B;
+				DEVELOPMENT_TEAM = 7A3KSATNU7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SlotMachineGame/SlotMachineGame-Prefix.pch";
 				INFOPLIST_FILE = "SlotMachineGame/SlotMachineGame-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.mushroomTD.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.media.slot2.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,12 +457,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = JQNK74493B;
+				DEVELOPMENT_TEAM = 7A3KSATNU7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SlotMachineGame/SlotMachineGame-Prefix.pch";
 				INFOPLIST_FILE = "SlotMachineGame/SlotMachineGame-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.mushroomTD.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.media.slot2.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
