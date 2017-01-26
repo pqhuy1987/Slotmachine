@@ -43,19 +43,19 @@
     {
         myMoney = myMoney + betingAmount*100 - betingAmount;
         
-        self.statusField.text = [NSString stringWithFormat:@"Bound2: %d을 땃습니다.", betingAmount*100];
+        self.statusField.text = [NSString stringWithFormat:@"Win: %d Gold!", betingAmount*100];
     }
     else if (comp1==comp2 || comp1==comp3 || comp2==comp3)
     {
         myMoney = myMoney + betingAmount*10 - betingAmount;
-        self.statusField.text = [NSString stringWithFormat:@"Bound1: %d을 땃습니다.", betingAmount*10];
+        self.statusField.text = [NSString stringWithFormat:@"Win: %d Gold!", betingAmount*10];
     }
     else
     {
         if (myMoney <= betingAmount)
         {
-            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Game Over" message:@"다시 게임하겠습니까?"
-                                                           delegate:self cancelButtonTitle:@"취소" otherButtonTitles:@"확인", nil];
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Game Over" message:@"Would you like to play again?"
+                                                           delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
             alert.tag = 99;
             [alert show];
             
@@ -63,7 +63,7 @@
         else
         {
             myMoney -= betingAmount;
-            self.statusField.text = @"실패했습니다.";
+            self.statusField.text = @"Lost.";
         }
     }
     self.statusField.textColor = [UIColor redColor];
